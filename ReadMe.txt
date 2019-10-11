@@ -7,4 +7,8 @@ pour merge la branche 1 avec la branche master :
 git checkout master
 git merge branche1
 
+<<<<<<< HEAD
 ko
+=======
+ok
+>>>>>>> branche1
