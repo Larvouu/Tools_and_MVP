@@ -1,14 +1,20 @@
 ok branche 1
 
-Un pull est déconseillé quand y'a plusieurs branches. On conseille merge + fetsh
+Un pull est dï¿½conseillï¿½ quand y'a plusieurs branches. On conseille merge + fetsh
 
 pour merge la branche 1 avec la branche master :
 
 git checkout master
 git merge branche1
 
-<<<<<<< HEAD
-ko
-=======
 ok
->>>>>>> branche1
+
+pour rÃ©gler un conflict, on essaye de merge, si Ã§a passe pas ca affiche 
+<<<< head
+
+===
+
+>>> income
+
+On conserve ce qu'on veut lÃ  dedans puis on add/status/commit
+Puis le merge marche tranquille
